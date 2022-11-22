@@ -46,7 +46,7 @@ else:
 if diff_percentage > 5:
     news_params = {
         "q": f"{COMPANY_NAME}",
-        "from": f"2022-11-21",
+        "from": f"{today}",
         "sortBy": "popularity",
         "apiKey": "INSERT NEWS API KEY"
     }
